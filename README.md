@@ -4,7 +4,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/Broomfields/CCL-Template/main)](https://github.com/Broomfields/CCL-Template/commits/main/)
 [![Licence](https://img.shields.io/github/license/Broomfields/CCL-Template)](https://github.com/Broomfields/CCL-Template/blob/main/LICENSE)
 
-CCL-Template is the starting structure for experiments in Creative Coding Lab, a platform I'm building for my own exploration and self-learning through programming.
+CCL-Template is the starting structure for experiments in **Creative Coding Lab**, a platform I'm building for my own exploration and self-learning through programming.
 
 I use these experiments to explore and visualise ideas I find in books and online. The Template is being developed to bring together the application files, Lab dependency setup, and workflows so I can get started on each idea more easily.
 
