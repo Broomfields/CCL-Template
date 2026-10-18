@@ -4,9 +4,11 @@
 [![Last commit](https://img.shields.io/github/last-commit/Broomfields/CCL-Template/main)](https://github.com/Broomfields/CCL-Template/commits/main/)
 [![Licence](https://img.shields.io/github/license/Broomfields/CCL-Template)](https://github.com/Broomfields/CCL-Template/blob/main/LICENSE)
 
-The starting point for independent Creative Coding Lab experiments, built with Lua and LÖVE.
+CCL-Template is the starting structure for experiments in Creative Coding Lab, a platform I'm building for my own exploration and self-learning through programming.
 
-Creative Coding Lab combines a reusable platform with interactive experiments in simulation, visualisation, physics, mathematics, and computation. CCL-Template is being developed to supply the application structure, setup tools, and workflows for each new experiment.
+I use these experiments to explore and visualise ideas I find in books and online. The Template is being developed to bring together the application files, Lab dependency setup, and workflows so I can get started on each idea more easily.
+
+You're welcome to use it for your own experiments. The documentation records how the pieces fit together, with practical setup instructions added as the tooling develops.
 
 ## Development status
 
