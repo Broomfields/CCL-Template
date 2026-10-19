@@ -1,0 +1,3 @@
+-- Application entry point.
+-- Wire LÖVE callbacks to the experiment and fetched Lab runtime here.
+-- Runtime integration belongs to the minimal-application task.
