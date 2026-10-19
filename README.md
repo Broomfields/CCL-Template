@@ -44,7 +44,7 @@ The experiment owns its model, state, and behaviour. Lab supplies shared runtime
 
 ```text
 your-experiment/
-├── experiment.toml     Planned: version and dependency metadata
+├── experiment.toml     Version and dependency metadata
 ├── main.lua            Application entry point
 ├── conf.lua            LÖVE configuration
 ├── experiment.lua      Experiment state and coordination
@@ -54,7 +54,7 @@ your-experiment/
 ├── EXPERIMENT.md       Ideas, explorations, and discoveries
 ├── scripts/
 │   ├── README.md       Tooling responsibilities and planned scripts
-│   └── fetch-lab.sh    Planned: fetch the declared Lab release
+│   └── fetch-lab.sh    Fetch the declared Lab release
 ├── .gitignore          Generated dependencies, builds, and run output
 └── vendor/
     └── lab/            Created by future fetch tooling; ignored by Git
