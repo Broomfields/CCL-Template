@@ -12,7 +12,7 @@ You're welcome to use it for your own experiments. The documentation records how
 
 ## Development status
 
-The repository is in its initial setup phase. The starter application and tooling described below are planned. Follow progress in the [Creative Coding Lab project](https://github.com/users/Broomfields/projects/5).
+The repository contains the initial source and documentation skeleton. The Lua files reserve module responsibilities; they do not yet implement a runnable experiment or integrate Lab. Dependency fetching, version metadata, validation, and workflows are planned. Follow progress in the [Creative Coding Lab project](https://github.com/users/Broomfields/projects/5).
 
 Verified setup commands and a runnable example will be added as the Template develops.
 
@@ -21,7 +21,7 @@ Verified setup commands and a runnable example will be added as the Template dev
 - Application entry points, experiment state, model code, and control declarations.
 - A version manifest and scripts to fetch the declared Lab release.
 - Local validation and optional Busted tests for experiment code.
-- An experiment notebook for questions, Cases, observations, and findings.
+- An experiment notebook for ideas, explorations, and discoveries.
 - Workflows for validation, dependency updates, and experiment releases.
 - Desktop packaging and browser deployment through GitHub Pages.
 
@@ -40,7 +40,7 @@ flowchart LR
 
 The experiment owns its model, state, and behaviour. Lab supplies shared runtime and presentation services. The manifest records the experiment version, Template provenance, and Lab dependency.
 
-## Planned experiment structure
+## Experiment structure
 
 ```text
 your-experiment/
@@ -51,11 +51,13 @@ your-experiment/
 ├── simulation.lua      Model calculations
 ├── controls.lua        Experiment controls
 ├── README.md           Introduction, setup, and running
-├── EXPERIMENT.md       Questions, Cases, and findings
+├── EXPERIMENT.md       Ideas, explorations, and discoveries
 ├── scripts/
+│   ├── README.md       Tooling responsibilities and planned scripts
 │   └── fetch-lab.sh    Fetch the declared Lab release
+├── .gitignore          Generated dependencies, builds, and run output
 └── vendor/
-    └── lab/            Fetched runtime, ignored by Git
+    └── lab/            Created by future fetch tooling; ignored by Git
 ```
 
 Adapt the structure to the experiment's needs. Experiments in the maintained CCL collection use the name `CCL-Exp-{Experiment_Name}`; choose a name that suits your own project.
